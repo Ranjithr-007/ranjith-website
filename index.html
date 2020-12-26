@@ -33,6 +33,7 @@
 	<!-- //css files -->
 	
 	<!--web font--><link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<!--//web font-->
 
 </head>
@@ -45,23 +46,26 @@
 		<!-- nav -->
 		<nav class="py-4">
         <div id="logo">
-			<h1> <a href="#index.html"><span class="fa fa-rebel" aria-hidden="true"></span> INTRO</a></h1>
+			<h1> <a href="#index.html"><span class="fa fa-rebel" aria-hidden="true"></span></a></h1>
 		</div>
 
         <label for="drop" class="toggle">Menu</label>
         <input type="checkbox" id="drop" />
             <ul class="menu mt-2">
-                <li class="mr-lg-4 mr-3 active"><a href="#">Home</a></li>
+                <li class="mr-lg-4 mr-3 active"><a href="#home-section">Home</a></li>
                 <li class="mr-lg-4 mr-3"><a href="#about">About</a></li>
                 <li class="mr-lg-4 mr-3"><a href="#services">Services</a></li>
-                <li class="mr-lg-4 mr-3"><a href="#experience">Education</a></li>
-                <li class="mr-lg-4 mr-3">
+				<li class="mr-lg-4 mr-3"><a href="#experience">Education</a></li>
+				<li class="mr-lg-4 mr-3">
                 <!-- First Tier Drop Down -->
                 <label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
                 <a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                 <input type="checkbox" id="drop-2"/>
                 <ul>
-                   <li><a href="#text">Quoted Text</a></li>
+					<li><a href="#skill-section">Skills</a></li>
+				   <li><a href="#experience-section">Experiences</a></li>
+				   <li><a href="#gallery-section">My Gallery</a></li>
+				   
                 </ul>
                 </li>
                 <li><a href="#contact">Contact</a></li>
@@ -73,12 +77,12 @@
 <!-- //header -->
 		
 <!-- banner -->
-<section class="banner">
+<section class="banner" id="home-section">
 	<div class="banner-layer">
 		<div class="container">
 			<div class="row w3pvt_banner_info">
 				<div class="col-md-8 w3layouts_banner_margin">
-					<h3 class="editContent">My name is </h3>
+					<h3 class="editContent">Hi i'm</h3>
 					<h2 class="editContent">RANJITH R </h2>
 					<h4>Web Designer and Developer</h4>
 					<p> name  RANJITH R <br>D.O.B 24-08-1999 <br> PHONE +91 6282936599 <br>E-MAIL ranjithranjukpm333@gmail.com</p>
@@ -98,11 +102,15 @@
 		<div class="row about-grids">
 			<div class="col-lg-4">
 				<h4 class="">Hi i'm RANJITH R</h4>
-				<p class="my-4">Am a web designer and web developer who starting carrier,had experience in Designing with HTML:5,Bootstrap and jquery and Developing with java. Am fueled by my passion to becoming a expert programmer. I considered mysel a "learner" eager to learn new technologies in programming. I belives maindfulness in the work place is the key to success.</p>
+				<p class="my-4">Consider me as a cinemaholic, yup I watch a lot of movies and series.
+					I spend most of my time on internet(Facebook, Instagram etc.),
+					And you already know developing websites, watching movies etc.
+					I listen to music a lot too, my favourite artists would be Xxxtenacion, Lana Del Rey and Billie Eilish. I'm a web designer and developer based in Kerala
+					I build interactive websites that run across platforms and devices.I had experience in Designing with HTML:5,Bootstrap and jquery and Developing with Python Django. Am fueled by my passion to becoming a expert programmer.</p>
 			
 			</div>
 			<div class="col-lg-4 ">
-				<img src="images/ranjith.jpg" alt="" class="img-fluid" />
+				<img src="images/gypay (1).jpg" alt="" class="img-fluid" />
 			</div>
 		<div class="col-lg-4 bar-grids">
 			<div class="wthree_skills">
@@ -135,13 +143,21 @@
 					</div>
 					<br><br>
 					<div class="container">
-					    <h3><i><b> Photoshop</b></i></h3>
+					    <h3><i><b> Git</b></i></h3>
 						<div class="progress">
 							<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
 								85%
 							</div>
 							</div>
-				    </div>
+					</div><br><br>
+					<div class="container">
+					    <h3><i><b> Photoshop</b></i></h3>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								80%
+							</div>
+							</div>
+					</div>
 				</h6>
 				</div>
 
@@ -165,11 +181,11 @@
 			
 			<div class="col-lg-4 col-md-6 w3layouts mt-lg-0 mt-sm-5 mt-4 w3-icon-grid1">
 				<h3><span class="fa mr-2 fa-laptop" aria-hidden="true"></span>WEB DEVELOPMENT</h3>
-				<p>Web Development is developing a web site ,it is the core part also called Back-end.The web site wants to store some datas of user,so developer done in this stage using sql.Web development can range from developing a simple single static page of plain text to complex Web-based internet applications.had knowledge in Ja</p>
+				<p>Web Development is developing a web site ,it is the core part also called Back-end.The web site wants to store some datas of user,so developer done in this stage using sql.Web development can range from developing a simple single static page of plain text to complex Web-based internet applications.had knowledge in Java</p>
 			</div>
 			<div class="col-lg-4 col-md-6 w3layouts mt-lg-0 mt-sm-5 mt-4 w3-icon-grid1">
-				<h3><span class="fa mr-2 fa-camera" aria-hidden="true"></span> Photoshop</h3>
-				<p>It uses a layer-based editing system that enables image creation and altering with multiple overlays that support transparency. Layers can also act as masks or filters, altering underlying colors. Shadows and other effects can be added to the layers. Photoshop actions include automation features to reduce the need for repetitive tasks. An option known as Photoshop CC (Creative Cloud) allows users to work on content from any computer.</p>
+				<h3><span class="fa mr-2 fa-camera" aria-hidden="true"></span> PHOTOSHOP</h3>
+				<p>I Create Beautiful Images, Graphics, Paintings, And 3D Artwork On Your Desktop And iPad. If You Can Dream It, You Can Make It With Photoshop.Photoshop is the predominant photo editing and manipulation software on the market. Its uses range from the full-featured editing of large batches of photos to creating intricate digital paintings and drawings that mimic those done by hand.</p>
 			</div>
 			
 
@@ -184,37 +200,39 @@
 		<h3 class="heading">Education</h3>
 		<div class="row exp-grids">
 			<div class="col-lg-4 col-md-6">
-				<img src="images/nss1.jpg" alt=" " class="img-fluid" />
+				<h2><b><center>Python Developer</center></b><span>2020</span></h2>
 				<div class="exp wthree">	
-					<h4>Nss Kpt Vhss  <span>2015 - 2017</span></h4>
+					<h4>Packapeer Academy</h4>
 					<div class="clearfix"></div>
-				    <p>Ottapalam,Palakkad,kerala, Pincode:679103.</p>
+				    <p>UL Cyberpark, Calicut, kerala</p>
 	
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6 mt-md-0 mt-2">
-				<img src="images/aspire.jpg" alt=" " class="img-fluid" />
+				<h2><b><center> Graduation</center></b><span>2017 - 2020</span></h2>
 				<div class="exp wthree">	
-					<h4>Aspire College Of Advanced Studies <span>2017 - 2020</span></h4>
+					<h4>Bsc Computer Science Completed</h4>
 					<div class="clearfix"></div>
-					<p>Mudavannoor,Thrithala,palakkad,kerala, pincode:679534.</p>
+					<p>Aspire College Mudavannoor,Thrithala,palakkad,kerala.</p>
 
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6 mt-md-0 mt-2">
-				<div class="exp wthree">	
-					<h3><center><b><i><u> E-DESIGN</u></i></b></center></h3>
-					<div class="clearfix"><p><center> July 2020 to Present</center></p></div>
-					<br>
-				<h5><center><b>Web Designer/Graphic Illustrator</b></center></h5>
-				<br>
-				<p><center><b> I started this programme as a free time hobby,<br>Providing customers small type graphic <br>Illustrations <br>And of course,I design
-				intractive websites for <br>Customers as they requested.</b> </center></p>
+				<h2><b><center> Higher Secondary</center></b><span>2015 - 2017</span></h2>
+				<div class="exp wthree">		
+					<h4>Nss Kpt Vhss</h4>
+					<div class="clearfix"></div>
+					<p>Ottapalam,Palakkad,Kerala.</p>
+
 				</div>
-			</div>
+			</div><br><br>
+			
 		</div>
 	</div>
+	
+	
 </section>
+   <section class="bg-info" id="skill-section">
 <!-- //experience -->
 
 
@@ -223,16 +241,115 @@
 <!-- //gallery --> 
 
 <!-- text -->
-<div class="text py-lg-5 py-5 text-center" id="text">
-	<div class="container py-sm-3">
-		<h4 class="w3pvt-title text-white"> MY <b><i> INSPIRATION</i></b></h4>
-		<p>"No one notices your tears,no  one notices your pain,but they always notice your mistakes."</p>
-		<div class="d-flex justify-content-center mt-3">
-			<a href="#" class="text-capitalize mr-2 work btn">My work </a>
-			<a href="#" class="text-capitalize hire btn">Hire Me </a>
+<div>
+	<h3 class="heading">Skills</h3>
+	<div class="row exp-grids">
+		
+		<div class="col-lg-4 col-md-6 ">
+			
+			<h2><b><center><u> E-Design</u></center></b></h2>
+			<div class="bg-info">
+				<div class="clearfix"></div>
+				<h4><font style="color: white"><center> Web Designer/Graphic Illustrator</center></font></h4>
+				<p><font style="color: white"><center>I started this programme as a free time hobby,
+					providing customers small type graphic illustrations
+					And of course, I design interactive websites for customers as they requested. E-design is perfect for clients who want design direction and designer expertise, but don’t mind doing a little legwork to prepare, manage, and implement the project themselves. If you like to DIY (do-it-yourself), than this is definitely the design service for you.</center></font></p>
+					
+
+			</div>
 		</div>
+		<div class="col-lg-4 col-md-6 mt-md-0 mt-2">
+			<h2><b><center><u>Problem Solving</u></center></b></h2>
+			<div class="bg-info">
+				<div class="clearfix"></div>
+				<p><font style="color: white"><center>Problem solving is all about using logic, as well as imagination, to make sense of a situation and come up with an intelligent solution. In fact, the best problem solvers actively anticipate potential future problems and act to prevent them or to mitigate their effects. A lot of the work in problem solving involves understanding what the underlying issues of the problem really are - not the symptoms.Problems are usually solved either intuitively or systematically. Intuition is used when no new knowledge is needed - you know enough to be able to make a quick decision and solve the problem, or you use common sense or experience to solve the problem.</center></font></p>
+				
+			</div>
+			
+		</div>
+		<div class="col-lg-4 col-md-6 mt-md-0 mt-2">
+			<h2><b><center><u>Team Work</u></center></b></h2>
+			<div class="bg-info">
+				<div class="clearfix"></div>
+				<p><font style="color: white"><center>Teamwork is one of the most sought-after skills in the workplace. it’s even more important for employees to demonstrate strong teamwork skills, in both face-to-face and virtual team interactions. Communication, Time management, Listening, Critical thinking, Collaboration, Leadership are the seven teamwork skills that are essential for academic and professional success. Problem solving is the ability to work through problems by using critical thinking skills to arrive at a solution. In the workplace teams have to solve problems every single day. Problem solving as a team improves the chances of coming up with the best solution or result.</center></font></p>
+			</div>
+		</div><br><br>
+		
 	</div>
 </div>
+<div class="d-flex justify-content-center mt-3">
+	<a href="#" class="text-capitalize mr-2 work btn">My work </a>
+	<a href="#" class="text-capitalize hire btn">Hire Me </a>
+</div>
+</section>
+<section class="experience py-5" id="experience-section">
+	<div class="container py-3">
+		<h3 class="heading">Experiences</h3>
+		<div class="row exp-grids">
+			<div class="col-lg-4 col-md-6">
+				<h2><b><center>Freelancer</center></b><span>2020</span></h2>
+				<div class="exp wthree">	
+					<div class="clearfix"></div>
+				    <p>I am worked as a freelancer based in kerala. I am develop intractive website for users.</p>
+	
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mt-md-0 mt-2">
+				<h2><b><center>Junior Software Engineer</center></b><span>2020</span></h2>
+				<div class="exp wthree">	
+					<div class="clearfix"></div>
+					<p>I'm currently working as a Python  developer in Packapeer,focusing on software development in Python Django.</p>
+
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mt-md-0 mt-2">
+				<h2><b><center>Web Hosting</center></b><span>2020</span></h2>
+				<div class="exp wthree">		
+					<div class="clearfix"></div>
+					<p>Host website in Github, Zero Host, AWS and Paid hosting and will provide reliable service with domain..</p>
+
+				</div>
+			</div><br><br>
+			
+		</div>
+	</div>
+	
+	
+</section>
+<section class="services py-5" id="gallery-section">
+	<div class="container py-3">
+		<h3 class="heading"> MY Gallery</h3>
+		<div class="row service-grids">
+			<div class="col-lg-4 col-md-6 w3layouts w3-icon-grid1">
+				<img src="images/gypay (2).jpg" alt="" class="img-fluid" />
+			</div>
+			
+			<div class="col-lg-4 col-md-6 w3layouts w3-icon-grid1">
+				<img src="images/ranjith.jpg" alt="" class="img-fluid" />
+			</div>
+			<div class="col-lg-4 col-md-6 w3layouts w3-icon-grid1">
+				<img src="images/agoda.jpg" alt="" class="img-fluid" />
+			</div>
+			
+
+		</div>
+		<div class="row service-grids">
+			<div class="col-lg-4 col-md-6 w3layouts w3-icon-grid1">
+				<img src="images/FastSave.jpeg" alt="" class="img-fluid" />
+			</div>
+			
+			<div class="col-lg-4 col-md-6 w3layouts w3-icon-grid1">
+				<img src="images/FastSave(1).jpeg" alt="" class="img-fluid" />
+			</div>
+			<div class="col-lg-4 col-md-6 w3layouts w3-icon-grid1">
+				<img src="images/FastSave(2).jpeg" alt="" class="img-fluid" />
+			</div>
+			
+
+		</div>
+	</div>
+</section>
+
 <!-- //text -->
 
 <!-- contact -->
@@ -267,7 +384,7 @@
 			</div>
 			<div class="col-lg-7 mt-lg-0 mt-5 contact-right">
 				<h4 class="mb-4">Get In Touch</h4>
-				<form action="#" method="post">
+				<form id="submit-form" action="">
 					<label><span class="fa mr-2 fa-user" aria-hidden="true"></span> Name</label>
 					<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
 					<div class="clearfix"></div>
@@ -294,9 +411,13 @@
 			<div class="w3layouts-grid-left w3layouts-grid-right text-center">
 				<div class="social mb-4">
 					<ul>
+						<li><a href="https://www.linkedin.com/in/ranjith-r-63b4271bb/"><span class="fa mr-2 fa-linkedin"></span></a></li>
+						<li><a href="https://github.com/ranjith-r-ui"><span class="fa mr-2 fa-github"></span></a></li>
+						<li><a href="https://www.instagram.com/gypsy._____/?igshid=lh0vgl5pa2ri"><span class="fa mr-2 fa-instagram"></span></a></li>
 						<li><a href="https://www.facebook.com/ranjith.dslr"><span class="fa mr-2 fa-facebook"></span></a></li>
 						<li><a href="https://twitter.com/Ranjith65288910"><span class="fa mr-2 fa-twitter"></span></a></li>
-						<li><a href="https://www.instagram.com/__sanchari.___/"><span class="fa mr-2 fa-instagram"></span></a></li>
+						
+					
 						
 						
 					</ul>
@@ -315,7 +436,10 @@
 <div id="popup1" class="overlay">
 	<div class="popup">
 		<img src="images/banner12.jpg" alt="Popup Image" class="img-fluid" />
-		<p class="mt-4 editContent">Am a web designer and web developer who starting carrier,had experience in Designing with HTML:5,Bootstrap and jquery and Developing with java. Am fueled by my passion to becoming a expert programmer. I considered mysel a "learner" eager to learn new technologies in programming. I belives maindfulness in the work place is the key to success.</p>
+		<p class="mt-4 editContent">Consider me as a cinemaholic, yup I watch a lot of movies and series.
+			I spend most of my time on internet(Facebook, Instagram etc.),
+			And you already know developing websites, watching movies etc.
+			I listen to music a lot too, my favourite artists would be Xxxtenacion, Lana Del Rey and Billie Eilish.Am a web designer and web developer who starting carrier,had experience in Designing with HTML:5,Bootstrap and jquery and Developing with java. Am fueled by my passion to becoming a expert programmer. I considered mysel a "learner" eager to learn new technologies in programming. I belives maindfulness in the work place is the key to success.</p>
 	<a class="close" href="#">&times;</a>
 	</div>
 </div>
@@ -379,6 +503,24 @@
 		</div>
 	</div>
 <!-- //popup for gallery -->
-
+  <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbwpy6df5ajLd_VLwekNuDKMmwsRHuTZoVPqRw8Q/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
 </body>
 </html>

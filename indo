@@ -1,0 +1,56 @@
+<section>
+		<div class="col-lg-5">
+			<div class="exp wthree">	
+			  <h3><center><b><i><u></u></i></b></center></h3>
+			  <div class="clearfix"><p><center> </center></p></div>
+			  <br>
+		  <h5><center><b></b></center></h5>
+		  <br>
+		  <p><center><b> I started this programme as a free time hobby,<br>Providing customers small type graphic <br>Illustrations <br>And of course,I design
+		  intractive websites for <br>Customers as they requested.</b> </center></p>
+		  </div>
+	  </div>
+	  <div class="col-lg-5"></div>
+		  <div class="exp wthree">
+			<h3><center><b><i><u> </u></i></b></center></h3>
+			<div class="clearfix"><p><center> 2020 </center></p></div>
+			<br>
+		<h5><center><b>.</b></center></h5>
+		<br>
+		<p><center><b></b> </center></p>
+		</div>
+	  </div>
+	</section>
+	<div class="container py-3">
+		<div class="row exp-grids">
+			<div class="col-lg-4 col-md-6">
+				
+				<div class="exp wthree">	
+					<h4>Web Designer/Graphic Illustrator</h4>
+					<div class="clearfix"></div>
+				    <p>I started this programme as a free time hobby,<br>Providing customers small type graphic <br>Illustrations <br>And of course,I design
+						intractive websites for <br>Customers as they requested</p>
+	
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mt-md-0 mt-2">
+				<h2><b><center>Python Django</center><span>2020</span></h2>
+				<div class="exp wthree">		
+					<h4>I'm currently working as a Web developer in Packapeer</h4>
+					<div class="clearfix"></div>
+					<p> I'm focusing on Web development using Python Django...</p>
+
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mt-md-0 mt-2">
+				<h2><b><center>Problem Solving</center><span>2020</span></h2>
+				<div class="exp wthree">		
+
+					<div class="clearfix"></div>
+					<p> Problem solving is all about using logic, as well as imagination, to make sense of a situation and come up with an intelligent solution. In fact, the best problem solvers actively anticipate potential future problems and act to prevent them or to mitigate their effects. A lot of the work in problem solving involves understanding what the underlying issues of the problem really are - not the symptoms. Problems are usually solved either intuitively or systematically. Intuition is used when no new knowledge is needed - you know enough to be able to make a quick decision and solve the problem, or you use common sense or experience to solve the problem.</p>
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
